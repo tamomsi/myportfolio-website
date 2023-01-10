@@ -9,7 +9,7 @@
 */
 
 :root {
-    --primary-color: ##002263;
+    --primary-color: #002263;
     --secondary-color: #C97C1A;
     --active-color: #7D4A0A;
     --sun-one: #edc655;
@@ -28,7 +28,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: calc(16px + 0.390625vw);
     line-height: 1.6;
 }
 
@@ -144,6 +144,29 @@ button:focus,
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.skills-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 20%;
+    border: thin solid var(--primary-color);
+    max-width: 50%;
+}
+
+.skills-table thead tr {
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.skills-table td {
+    padding: 9px 15px;
+    color: var(--primary-color);
+}
+
+.skills-table tbody tr {
+    border-top: 1px solid var(--primary-color);
 }
 
 .page-header {
