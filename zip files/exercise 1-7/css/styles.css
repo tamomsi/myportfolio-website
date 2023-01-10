@@ -1,3 +1,13 @@
+/* primary color (Blue): #002263;
+   secondary color: #C97C1A;
+   active-color: #7D4A0A; 
+   sun color one: #edc655; 
+   sun color two: #fcffad; 
+   sun color three: #f76414;
+   grid__item color: lightgrey;
+   white: #ffffff;
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -8,10 +18,6 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
-/* text color (Blue): #002263;
-   Primary color: #C97C1A;
-   secondary color: #7D4A0A; 
-*/
 
 h1 {
  font-size: 30px;
@@ -159,6 +165,29 @@ button:focus,
     justify-content: center;
     text-align: center;
     padding: 0;
+}
+
+.skills-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 20%;
+    border: thin solid #002263;
+    max-width: 50%;
+}
+
+.skills-table thead tr {
+    color: #002263;
+    text-align: left;
+}
+
+.skills-table td {
+    padding: 9px 15px;
+    color: #002263;
+}
+
+.skills-table tbody tr {
+    border-top: 1px solid #002263;
 }
 
 .grid {
