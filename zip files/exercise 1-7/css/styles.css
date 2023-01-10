@@ -1,13 +1,3 @@
-/* primary color (Blue): #002263;
-   secondary color: #C97C1A;
-   active-color: #7D4A0A; 
-   sun color one: #edc655; 
-   sun color two: #fcffad; 
-   sun color three: #f76414;
-   grid__item color: lightgrey;
-   white: #ffffff;
-*/
-
 * {
     box-sizing: border-box;
 }
@@ -18,16 +8,10 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
-
-body header {
-    position: sticky;
-    top: 0;
-  }
-  
-  body footer {
-    position: sticky;
-    bottom: 0;
-  }
+/* text color (Blue): #002263;
+   Primary color: #C97C1A;
+   secondary color: #7D4A0A; 
+*/
 
 h1 {
  font-size: 30px;
@@ -102,11 +86,18 @@ button:focus,
     text-decoration: none;
 }
 
+.profile {
+    max-width: 100%;
+    margin: 0 auto;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .profile__portrait {
-    float: left;
-    width: 250px;
+    width: 20%;
     height: auto;
-    margin-right: 40px;
     border-radius: 50%;
 }
 
@@ -115,11 +106,6 @@ button:focus,
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.profile {
-    max-width: 700px;
-    margin: 0 auto;
 }
 
 .page-header {
@@ -164,6 +150,14 @@ button:focus,
 
 .activities {
     list-style-type: none;
+    padding: 0;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     padding: 0;
 }
 
