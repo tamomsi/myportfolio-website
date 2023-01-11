@@ -27,16 +27,6 @@ body {
     line-height: 1.6;
 }
 
-body header {
-    position: sticky;
-    top: 0;
-  }
-  
-  body footer {
-    position: sticky;
-    bottom: 0;
-  }
-
 h1 {
  font-size: 30px;
  font-weight: 700;
@@ -146,6 +136,8 @@ button:focus,
             justify-content: center;
     text-align: center;
     background-color: #ffffff;
+    position: sticky;
+    bottom: 0;
 }
 
 .profile {
@@ -218,6 +210,8 @@ button:focus,
     padding: 20px;
     margin: auto;
     background-color: #ffffff;
+    position: sticky;
+    top: 0;
 }
 
 .page-header__item {
