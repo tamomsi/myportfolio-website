@@ -224,6 +224,7 @@ button:focus,
     background-color: var(--grid-item-color);
     display: inline-block;
     width:33%;
+    padding: 5%;
 }
 
 @supports (display: grid) {
