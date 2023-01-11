@@ -35,28 +35,41 @@
     <main>
         <h1>Contact</h1>
         <div>
-            Tamar Omsarashvili <br>
-            Kalverstraat 1 <br>
-            1011xb Amsterdam <br>
-            The Netherlands <br>
+            <div class="address">
+                Tamar Omsarashvili <br>
+                Kalverstraat 1 <br>
+                1011xb Amsterdam <br>
+                The Netherlands <br>
+            </div>
             <br>
-            <a href="tel:+49123456789">Call me</a> <br>
-            Email: <a href="mailto:t_omsara@yahoo.com">t_omsara@yahoo.com</a> <br>
-            Skype: <a href="skype:Tamar Omsarashvili">Tamar Omsarashvili</a> <br>
-            <a href="mailto:t_omsara@yahoo.com">contact me via email</a> <br>
+            <div class="contact-details">
+                <a href="tel:+49123456789">Call me</a> <br>
+                Email: <a href="mailto:t_omsara@yahoo.com">t_omsara@yahoo.com</a> <br>
+                Skype: <a href="skype:Tamar Omsarashvili">Tamar Omsarashvili</a> <br>
+                <a href="mailto:t_omsara@yahoo.com">contact me via email</a>
+            </div>
         </div>
-        <form action="" method="post" id="contact-form">
-            <label class="standard-label" for="contact-email">Email:</label>
-            <input type="email" id="contact-email" required>
+        <br>
+        <div class="contact-form">
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="fullname">Full Name:</label>
+                <input type="text" id="fullname" placeholder="Full name">
+                <br>
 
-            <label class="standard-label" for="tel">Telephone:</label>
-            <input type="tel" id="tel">
+                <label class="standard-label" for="contact-email">Email:</label>
+                <input type="text" id="contact-email" placeholder="Your email" required>
+                <br>
+                <label class="standard-label" for="tel">Telephone:</label>
+                <input type="text" id="tel" placeholder="Telephone number">
+                <br>
 
-            <label class="standard-label" for="message">Message:</label>
-            <textarea name="" id="message" cols="30" rows="10" maxlength="240" required></textarea>
-
-            <input type="submit" value="send message">
-        </form>
+                <label class="standard-label" for="message">Message:</label>
+                <textarea name="" id="message" placeholder="Type your message here" cols="30" rows="10" maxlength="240"
+                    required></textarea>
+                <br>
+                <input type="submit" value="send" class="submit">
+            </form>
+        </div>
     </main>
     <footer class="page-footer">
         <p>
