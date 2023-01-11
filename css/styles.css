@@ -222,9 +222,6 @@ button:focus,
 
 .grid__item {
     background-color: var(--grid-item-color);
-}
-
-.grid__item {
     display: inline-block;
     width:33%;
 }
