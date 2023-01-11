@@ -200,6 +200,10 @@ button:focus,
     width: 10%;
 }
 
+.social-media-list li {
+    margin: 2px;
+}
+
 .about-myself {
     display: flex;
     flex-direction: column;
