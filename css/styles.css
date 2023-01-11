@@ -31,11 +31,6 @@ body {
     font-size: calc(16px + 0.390625vw);
     line-height: 1.6;
 }
-  
-  body footer {
-    position: sticky;
-    bottom: 0;
-  }
 
 h1 {
  font-size: var(--font-size-h1);
@@ -117,6 +112,8 @@ button:focus,
     justify-content: center;
     text-align: center;
     background-color: var(--white);
+    position: sticky;
+    bottom: 0;
 }
 
 .profile {
