@@ -227,6 +227,32 @@ button:focus,
     padding: 5%;
 }
 
+input, select, textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    margin: 10px 20px;
+    resize: vertical;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: var(--grid-item-color);
+    padding: 20px;
+    width: 50%;
+  }
+
+  .submit {
+    color: var(--primary-color);
+    padding: 10px 15px;
+    width: 20%;
+}
+
+.contact-form label {
+  display: block;
+}
+
 @supports (display: grid) {
     .grid {
         display: grid;
