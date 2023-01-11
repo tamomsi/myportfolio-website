@@ -197,7 +197,7 @@ button:focus,
     display: flex;
     justify-content: space-between;
     padding: var(--padding-zero);
-    width: 20%;
+    width: 10%;
 }
 
 .about-myself {
