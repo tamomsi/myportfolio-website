@@ -1,5 +1,5 @@
 /* primary color (Blue): #002263;
-   secondary color: #C97C1A;
+   secondary color: #aa6700;
    active-color: #7D4A0A; 
    sun color one: #edc655; 
    sun color two: #fcffad; 
@@ -10,7 +10,7 @@
 
 :root {
     --primary-color: #002263;
-    --secondary-color: #C97C1A;
+    --secondary-color: #aa6700;
     --active-color: #7D4A0A;
     --sun-one: #edc655;
     --sun-two: #fcffad;
