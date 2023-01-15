@@ -205,7 +205,8 @@ button:focus,
 
 .page-header__item:first-child {
     width: 10%;
-    height: auto;
+    height: 10%;
+    margin-top: 10%;
 }
 /*.social-media {
     width: 100%;
