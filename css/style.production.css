@@ -311,6 +311,8 @@ textarea {
     background-color: lightgrey;
     padding: 20px;
     width: 50%;
+    min-width: 300px;
+    max-width: 500px;
   }
 
   .submit {
