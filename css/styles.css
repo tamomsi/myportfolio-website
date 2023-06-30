@@ -125,6 +125,10 @@ a:active {
       margin-right: 0;
       margin-bottom: 20px;
       max-width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
     }
   }  
 
@@ -275,6 +279,10 @@ input, select, textarea {
 
 .contact-form label {
   display: block;
+}
+
+#text__portfolio {
+    overflow: hidden;
 }
 
 @supports (display: grid) {
