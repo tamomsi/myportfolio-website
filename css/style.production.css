@@ -339,6 +339,33 @@ textarea {
   display: block;
 }
 
+.contact-details {
+    border: 1px solid #002263;
+    border-radius: 5px;
+    padding: 20px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-details a {
+    color: #002263;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: currentColor;
+}
+
 #text__portfolio {
     overflow: hidden;
 }

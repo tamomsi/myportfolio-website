@@ -281,6 +281,32 @@ input, select, textarea {
   display: block;
 }
 
+.contact-details {
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-details a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: currentColor;
+}
+
 #text__portfolio {
     overflow: hidden;
 }
