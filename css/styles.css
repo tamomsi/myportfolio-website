@@ -115,10 +115,18 @@ a:active {
     border-radius: 50%;
     float: left;
     margin-right: 10%;
-    float: left;
     min-width: 200px;
     max-width: 600px;
 }
+
+@media all and (max-width: 600px) {
+    .profile__portrait {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+  }  
 
 .skills-table {
     border-collapse: collapse;
@@ -181,12 +189,13 @@ a:active {
 }
 
 .about-myself {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: var(--padding-zero);
-}
+        background-color: var(--white);
+        padding: 20px;
+        border: 1px solid var(--grid-item-color);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px auto 0;
+        max-width: 700px;
+      }
 
 .activities {
     list-style-type: none;
@@ -219,6 +228,7 @@ a:active {
     left: 0;
     right: 0;
     text-align: center;
+    margin-top: 20px;
   }
   
   .grid__item-tags a {
@@ -228,6 +238,15 @@ a:active {
   .grid__item-tags img {
     height: 24px;
   }
+
+  .space_bottom {
+      padding-bottom: 20px;
+  }
+
+  img.project_image {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
 
 input, select, textarea {
     width: 80%;
@@ -297,50 +316,6 @@ input, select, textarea {
         grid-column: auto / auto;
         grid-row: auto / auto;
     }
-}
-
-@keyframes color-change {
-    0% {
-        fill: var(--sun-one);
-    }
-
-    50% {
-        fill: var(--sun-two);
-    }
-
-    to {
-        fill: var(--sun-three);
-    }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-    from {
-        transform: translate(0, 50px);
-    }
-    to {
-        transform: translate(200px, 50px);
-    }
-}
-
-.cloud-front {
-    animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-    from {
-        transform: translate(446px, 48px);
-    }
-    to {
-        transform: translate(100px, 48px);
-    }
-}
-
-.cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 .profile::after {
